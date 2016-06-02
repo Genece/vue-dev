@@ -1,0 +1,99 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/leegenecexidao/.nvm/versions/node/v5.6.0/bin/node',
+1 verbose cli   '/Users/leegenecexidao/.nvm/versions/node/v5.6.0/bin/npm',
+1 verbose cli   'i' ]
+2 info using npm@3.7.2
+3 info using node@v5.6.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData karma
+20 silly mapToRegistry name karma
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/karma
+24 verbose request uri https://registry.npmjs.org/karma
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 5:55:28 PM
+27 verbose request id 0b506f56d2b2920a
+28 verbose etag "4GBLG4E7RF7VW0W6BULQND4AL"
+29 http request GET https://registry.npmjs.org/karma
+30 http 304 https://registry.npmjs.org/karma
+31 verbose headers { date: 'Thu, 02 Jun 2016 09:55:28 GMT',
+31 verbose headers   via: '1.1 varnish',
+31 verbose headers   'cache-control': 'max-age=300',
+31 verbose headers   etag: '"4GBLG4E7RF7VW0W6BULQND4AL"',
+31 verbose headers   age: '285',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'x-served-by': 'cache-nrt6129-NRT',
+31 verbose headers   'x-cache': 'HIT',
+31 verbose headers   'x-cache-hits': '2',
+31 verbose headers   'x-timer': 'S1464861328.964918,VS0,VE0',
+31 verbose headers   vary: 'Accept-Encoding' }
+32 silly get cb [ 304,
+32 silly get   { date: 'Thu, 02 Jun 2016 09:55:28 GMT',
+32 silly get     via: '1.1 varnish',
+32 silly get     'cache-control': 'max-age=300',
+32 silly get     etag: '"4GBLG4E7RF7VW0W6BULQND4AL"',
+32 silly get     age: '285',
+32 silly get     connection: 'keep-alive',
+32 silly get     'x-served-by': 'cache-nrt6129-NRT',
+32 silly get     'x-cache': 'HIT',
+32 silly get     'x-cache-hits': '2',
+32 silly get     'x-timer': 'S1464861328.964918,VS0,VE0',
+32 silly get     vary: 'Accept-Encoding' } ]
+33 verbose etag https://registry.npmjs.org/karma from cache
+34 verbose get saving karma to /Users/leegenecexidao/.npm/registry.npmjs.org/karma/.cache.json
+35 verbose correctMkdir /Users/leegenecexidao/.npm correctMkdir not in flight; initializing
+36 silly fetchPackageMetaData Error: No compatible version found: karma@^0npm install karma-<plugin name> --save-dev.13.22
+36 silly fetchPackageMetaData Valid install targets:
+36 silly fetchPackageMetaData 0.13.22, 0.13.21, 0.13.20, 0.13.19, 0.13.18, 0.13.17, 0.13.16, 0.13.15, 0.13.14, 0.13.13, 0.13.12, 0.13.11, 0.13.10, 0.13.9, 0.13.8, 0.13.7, 0.13.6, 0.13.5, 0.13.4, 0.13.3, 0.13.2, 0.13.1, 0.13.0, 0.13.0-rc.9, 0.13.0-rc.8, 0.13.0-rc.7, 0.13.0-rc.6, 0.13.0-rc.5, 0.13.0-rc.4, 0.13.0-rc.3, 0.13.0-rc.2, 0.13.0-rc.1, 0.13.0-rc.0, 0.12.37, 0.12.36, 0.12.35, 0.12.34, 0.12.33, 0.12.32, 0.12.32-beta.0, 0.12.31, 0.12.30, 0.12.29, 0.12.28, 0.12.28-beta-f65c864, 0.12.28-beta-b9be580, 0.12.27, 0.12.26, 0.12.25, 0.12.25-beta-ad5bc24, 0.12.25-beta-37a7958, 0.12.24, 0.12.24-dev-test, 0.12.24-dev-socketio10-2, 0.12.24-dev-socketio10, 0.12.24-beta-6cf7955, 0.12.23, 0.12.22, 0.12.21, 0.12.20, 0.12.19, 0.12.18, 0.12.17, 0.12.16, 0.12.16-beta-905422d, 0.12.15, 0.12.14, 0.12.13, 0.12.12, 0.12.11, 0.12.11-beta-3029418, 0.12.10, 0.12.9, 0.12.8, 0.12.7, 0.12.6, 0.12.6-beta-43e6e28, 0.12.5, 0.12.4, 0.12.3, 0.12.2, 0.12.1, 0.12.0, 0.11.14, 0.11.13, 0.11.12, 0.11.12-dev2, 0.11.12-dev, 0.11.11, 0.11.11-dev, 0.11.10, 0.11.9, 0.11.8, 0.11.7, 0.11.6, 0.11.5, 0.11.4, 0.11.3, 0.11.2, 0.11.1, 0.11.0, 0.10.10, 0.10.9, 0.10.8, 0.10.7, 0.10.6, 0.10.5, 0.10.4, 0.10.3, 0.10.2, 0.10.1, 0.10.0, 0.9.8, 0.9.7, 0.9.6, 0.9.5, 0.9.4, 0.9.3, 0.9.2, 0.9.2-dart, 0.9.1, 0.9.0, 0.9.0-dart, 0.8.8, 0.8.7, 0.8.6, 0.8.5, 0.8.4, 0.8.3, 0.8.2, 0.8.1, 0.8.0
+36 silly fetchPackageMetaData
+36 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/Users/leegenecexidao/.nvm/versions/node/v5.6.0/lib/node_modules/npm/lib/fetch-package-metadata.js:156:16)
+36 silly fetchPackageMetaData     at /Users/leegenecexidao/.nvm/versions/node/v5.6.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+36 silly fetchPackageMetaData     at /Users/leegenecexidao/.nvm/versions/node/v5.6.0/lib/node_modules/npm/lib/utils/pulse-till-done.js:19:8
+36 silly fetchPackageMetaData     at saved (/Users/leegenecexidao/.nvm/versions/node/v5.6.0/lib/node_modules/npm/lib/cache/caching-client.js:168:7)
+36 silly fetchPackageMetaData     at /Users/leegenecexidao/.nvm/versions/node/v5.6.0/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+36 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:82:15)
+36 silly fetchPackageMetaData  error for karma@^0npm install karma-<plugin name> --save-dev.13.22 [Error: No compatible version found: karma@^0npm install karma-<plugin name> --save-dev.13.22
+36 silly fetchPackageMetaData Valid install targets:
+36 silly fetchPackageMetaData 0.13.22, 0.13.21, 0.13.20, 0.13.19, 0.13.18, 0.13.17, 0.13.16, 0.13.15, 0.13.14, 0.13.13, 0.13.12, 0.13.11, 0.13.10, 0.13.9, 0.13.8, 0.13.7, 0.13.6, 0.13.5, 0.13.4, 0.13.3, 0.13.2, 0.13.1, 0.13.0, 0.13.0-rc.9, 0.13.0-rc.8, 0.13.0-rc.7, 0.13.0-rc.6, 0.13.0-rc.5, 0.13.0-rc.4, 0.13.0-rc.3, 0.13.0-rc.2, 0.13.0-rc.1, 0.13.0-rc.0, 0.12.37, 0.12.36, 0.12.35, 0.12.34, 0.12.33, 0.12.32, 0.12.32-beta.0, 0.12.31, 0.12.30, 0.12.29, 0.12.28, 0.12.28-beta-f65c864, 0.12.28-beta-b9be580, 0.12.27, 0.12.26, 0.12.25, 0.12.25-beta-ad5bc24, 0.12.25-beta-37a7958, 0.12.24, 0.12.24-dev-test, 0.12.24-dev-socketio10-2, 0.12.24-dev-socketio10, 0.12.24-beta-6cf7955, 0.12.23, 0.12.22, 0.12.21, 0.12.20, 0.12.19, 0.12.18, 0.12.17, 0.12.16, 0.12.16-beta-905422d, 0.12.15, 0.12.14, 0.12.13, 0.12.12, 0.12.11, 0.12.11-beta-3029418, 0.12.10, 0.12.9, 0.12.8, 0.12.7, 0.12.6, 0.12.6-beta-43e6e28, 0.12.5, 0.12.4, 0.12.3, 0.12.2, 0.12.1, 0.12.0, 0.11.14, 0.11.13, 0.11.12, 0.11.12-dev2, 0.11.12-dev, 0.11.11, 0.11.11-dev, 0.11.10, 0.11.9, 0.11.8, 0.11.7, 0.11.6, 0.11.5, 0.11.4, 0.11.3, 0.11.2, 0.11.1, 0.11.0, 0.10.10, 0.10.9, 0.10.8, 0.10.7, 0.10.6, 0.10.5, 0.10.4, 0.10.3, 0.10.2, 0.10.1, 0.10.0, 0.9.8, 0.9.7, 0.9.6, 0.9.5, 0.9.4, 0.9.3, 0.9.2, 0.9.2-dart, 0.9.1, 0.9.0, 0.9.0-dart, 0.8.8, 0.8.7, 0.8.6, 0.8.5, 0.8.4, 0.8.3, 0.8.2, 0.8.1, 0.8.0
+36 silly fetchPackageMetaData ]
+37 silly rollbackFailedOptional Starting
+38 silly rollbackFailedOptional Finishing
+39 silly runTopLevelLifecycles Starting
+40 silly runTopLevelLifecycles Finishing
+41 silly install printInstalled
+42 verbose stack Error: No compatible version found: karma@^0npm install karma-<plugin name> --save-dev.13.22
+42 verbose stack Valid install targets:
+42 verbose stack 0.13.22, 0.13.21, 0.13.20, 0.13.19, 0.13.18, 0.13.17, 0.13.16, 0.13.15, 0.13.14, 0.13.13, 0.13.12, 0.13.11, 0.13.10, 0.13.9, 0.13.8, 0.13.7, 0.13.6, 0.13.5, 0.13.4, 0.13.3, 0.13.2, 0.13.1, 0.13.0, 0.13.0-rc.9, 0.13.0-rc.8, 0.13.0-rc.7, 0.13.0-rc.6, 0.13.0-rc.5, 0.13.0-rc.4, 0.13.0-rc.3, 0.13.0-rc.2, 0.13.0-rc.1, 0.13.0-rc.0, 0.12.37, 0.12.36, 0.12.35, 0.12.34, 0.12.33, 0.12.32, 0.12.32-beta.0, 0.12.31, 0.12.30, 0.12.29, 0.12.28, 0.12.28-beta-f65c864, 0.12.28-beta-b9be580, 0.12.27, 0.12.26, 0.12.25, 0.12.25-beta-ad5bc24, 0.12.25-beta-37a7958, 0.12.24, 0.12.24-dev-test, 0.12.24-dev-socketio10-2, 0.12.24-dev-socketio10, 0.12.24-beta-6cf7955, 0.12.23, 0.12.22, 0.12.21, 0.12.20, 0.12.19, 0.12.18, 0.12.17, 0.12.16, 0.12.16-beta-905422d, 0.12.15, 0.12.14, 0.12.13, 0.12.12, 0.12.11, 0.12.11-beta-3029418, 0.12.10, 0.12.9, 0.12.8, 0.12.7, 0.12.6, 0.12.6-beta-43e6e28, 0.12.5, 0.12.4, 0.12.3, 0.12.2, 0.12.1, 0.12.0, 0.11.14, 0.11.13, 0.11.12, 0.11.12-dev2, 0.11.12-dev, 0.11.11, 0.11.11-dev, 0.11.10, 0.11.9, 0.11.8, 0.11.7, 0.11.6, 0.11.5, 0.11.4, 0.11.3, 0.11.2, 0.11.1, 0.11.0, 0.10.10, 0.10.9, 0.10.8, 0.10.7, 0.10.6, 0.10.5, 0.10.4, 0.10.3, 0.10.2, 0.10.1, 0.10.0, 0.9.8, 0.9.7, 0.9.6, 0.9.5, 0.9.4, 0.9.3, 0.9.2, 0.9.2-dart, 0.9.1, 0.9.0, 0.9.0-dart, 0.8.8, 0.8.7, 0.8.6, 0.8.5, 0.8.4, 0.8.3, 0.8.2, 0.8.1, 0.8.0
+42 verbose stack
+42 verbose stack     at pickVersionFromRegistryDocument (/Users/leegenecexidao/.nvm/versions/node/v5.6.0/lib/node_modules/npm/lib/fetch-package-metadata.js:156:16)
+42 verbose stack     at /Users/leegenecexidao/.nvm/versions/node/v5.6.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+42 verbose stack     at /Users/leegenecexidao/.nvm/versions/node/v5.6.0/lib/node_modules/npm/lib/utils/pulse-till-done.js:19:8
+42 verbose stack     at saved (/Users/leegenecexidao/.nvm/versions/node/v5.6.0/lib/node_modules/npm/lib/cache/caching-client.js:168:7)
+42 verbose stack     at /Users/leegenecexidao/.nvm/versions/node/v5.6.0/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+42 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+43 verbose cwd /Users/leegenecexidao/works/vue-dev
+44 error Darwin 14.5.0
+45 error argv "/Users/leegenecexidao/.nvm/versions/node/v5.6.0/bin/node" "/Users/leegenecexidao/.nvm/versions/node/v5.6.0/bin/npm" "i"
+46 error node v5.6.0
+47 error npm  v3.7.2
+48 error No compatible version found: karma@^0npm install karma-<plugin name> --save-dev.13.22
+48 error Valid install targets:
+48 error 0.13.22, 0.13.21, 0.13.20, 0.13.19, 0.13.18, 0.13.17, 0.13.16, 0.13.15, 0.13.14, 0.13.13, 0.13.12, 0.13.11, 0.13.10, 0.13.9, 0.13.8, 0.13.7, 0.13.6, 0.13.5, 0.13.4, 0.13.3, 0.13.2, 0.13.1, 0.13.0, 0.13.0-rc.9, 0.13.0-rc.8, 0.13.0-rc.7, 0.13.0-rc.6, 0.13.0-rc.5, 0.13.0-rc.4, 0.13.0-rc.3, 0.13.0-rc.2, 0.13.0-rc.1, 0.13.0-rc.0, 0.12.37, 0.12.36, 0.12.35, 0.12.34, 0.12.33, 0.12.32, 0.12.32-beta.0, 0.12.31, 0.12.30, 0.12.29, 0.12.28, 0.12.28-beta-f65c864, 0.12.28-beta-b9be580, 0.12.27, 0.12.26, 0.12.25, 0.12.25-beta-ad5bc24, 0.12.25-beta-37a7958, 0.12.24, 0.12.24-dev-test, 0.12.24-dev-socketio10-2, 0.12.24-dev-socketio10, 0.12.24-beta-6cf7955, 0.12.23, 0.12.22, 0.12.21, 0.12.20, 0.12.19, 0.12.18, 0.12.17, 0.12.16, 0.12.16-beta-905422d, 0.12.15, 0.12.14, 0.12.13, 0.12.12, 0.12.11, 0.12.11-beta-3029418, 0.12.10, 0.12.9, 0.12.8, 0.12.7, 0.12.6, 0.12.6-beta-43e6e28, 0.12.5, 0.12.4, 0.12.3, 0.12.2, 0.12.1, 0.12.0, 0.11.14, 0.11.13, 0.11.12, 0.11.12-dev2, 0.11.12-dev, 0.11.11, 0.11.11-dev, 0.11.10, 0.11.9, 0.11.8, 0.11.7, 0.11.6, 0.11.5, 0.11.4, 0.11.3, 0.11.2, 0.11.1, 0.11.0, 0.10.10, 0.10.9, 0.10.8, 0.10.7, 0.10.6, 0.10.5, 0.10.4, 0.10.3, 0.10.2, 0.10.1, 0.10.0, 0.9.8, 0.9.7, 0.9.6, 0.9.5, 0.9.4, 0.9.3, 0.9.2, 0.9.2-dart, 0.9.1, 0.9.0, 0.9.0-dart, 0.8.8, 0.8.7, 0.8.6, 0.8.5, 0.8.4, 0.8.3, 0.8.2, 0.8.1, 0.8.0
+49 error If you need help, you may report this error at:
+49 error     <https://github.com/npm/npm/issues>
+50 verbose exit [ 1, true ]
